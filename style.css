@@ -211,6 +211,25 @@ body {
     margin-bottom: 2em;
 }
 
+.skills-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 3px;
+    margin: 50px auto;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.375rem;
+}
+
+.skills-title::after {
+    content: 'What I love to Work with';
+    display: block;
+    height: 1px;
+    width: 10em;
+    background: #ca8a8b;
+    margin: 0.3em 0;
+    text-align: left;
+}
+
 .skills-bar {
     width: 600px;
     background: #262626;
